@@ -1,0 +1,18 @@
+package com;
+
+public class DemoTest {
+
+	public static void main(String[] args) {
+		String str1 = "Welcome to Java Training";
+		String str2 = new String("Welcome to Java Training");
+		System.out.println(str1);
+		System.out.println(str2);
+		System.out.println(str1.length());
+		System.out.println(str1.toUpperCase());
+		System.out.println(str1.toLowerCase());
+		System.out.println(str1.substring(2));
+		System.out.println(str1.substring(0,4));
+		System.out.println(str1.indexOf('o'));
+	}
+
+}
