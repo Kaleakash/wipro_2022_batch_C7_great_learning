@@ -5,7 +5,79 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2022-02-25T14:03:02Z</updated>
+  <updated>2022-03-02T08:00:00Z</updated>
+  <entry>
+    <title>Spring Tips: Reliable Database Migrations with Liquibase and Spring Boot</title>
+    <link rel="alternate" href="https://spring.io/blog/2022/03/02/spring-tips-reliable-database-migrations-with-liquibase-and-spring-boot" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2022-02-26:4716</id>
+    <updated>2022-03-02T08:00:00Z</updated>
+    <content type="html">&lt;p&gt;Hi, Spring fans! In this installment, we look at database migrations with the very popular Liquibase database migration library and how you can use it in the context of a Spring Boot application (and in a GraalVM native image)&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/YhicwD489xQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
+  <entry>
+    <title>This Week in Spring - March 1st, 2022</title>
+    <link rel="alternate" href="https://spring.io/blog/2022/03/01/this-week-in-spring-march-1st-2022" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2022-03-01:4719</id>
+    <updated>2022-03-01T18:00:00Z</updated>
+    <content type="html">&lt;p&gt;Hi, Spring fans! Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! We&amp;rsquo;ve got a lot to cover this week so let&amp;rsquo;s get right into it!&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/02/24/a-bootiful-podcast-infoq-editor-and-java-champion-dr-alex-blewitt"&gt;A Bootiful Podcast: InfoQ editor and Java Champion, Dr. Alex Blewitt&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.linkedin.com/learning/advanced-spring-spring-boot-actuator?trk=share_ios_course_learning&amp;shareId=6Of"&gt;Advanced Spring: Spring Boot Actuator Online Class&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://medium.com/@dhakresumitra5/graphql-with-spring-boot-java-d2fa3ca1b12c"&gt;GraphQL with Spring Boot java&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=5--tDQIMqhY"&gt;Leverage Java 17 New Features to Create Your Wordle Checker - JEP Café #10&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/micrometerio/status/1494044523596451846"&gt;We&amp;rsquo;ve just released Micrometer 1.7.9, 1.8.3, 1.9.0-M3, 2.0.0-M2, Micrometer Tracing 1.0.0-M2, and Micrometer Docs Generator 1.0.0-M1 &lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/02/24/spring-boot-2-5-10-available-now"&gt;Spring Boot 2.5.10 available now&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/02/24/spring-boot-2-6-4-available-now"&gt;Spring Boot 2.6.4 available now&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/02/24/spring-boot-2-7-0-m2-available-now"&gt;Spring Boot 2.7.0-M2 available now&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/03/01/spring-cloud-gateway-cve-reports-published"&gt;Spring Cloud Gateway CVE reports published&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/03/01/spring-native-0-11-3-available-now"&gt;Spring Native 0.11.3 available now&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/02/23/spring-session-2021-0-5-and-2021-1-2-released"&gt;Spring Session 2021.0.5 and 2021.1.2 released&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/02/25/spring-shell-2-1-0-m3-is-now-available"&gt;Spring Shell 2.1.0-M3 is now available&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/02/23/spring-tips-easy-iot-integration-with-hivemq-spring-integration-mqtt-and-spring-native"&gt;Spring Tips: easy IOT integration with HiveMQ, Spring Integration MQTT, and Spring Native&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/toedter/spring-hateoas-jsonapi/"&gt;&lt;code&gt;toedter/spring-hateoas-jsonapi&lt;/code&gt;: A JSON:API media type implementation for Spring HATEOAS&lt;/a&gt; has a new release!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Cloud Gateway CVE reports published</title>
+    <link rel="alternate" href="https://spring.io/blog/2022/03/01/spring-cloud-gateway-cve-reports-published" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Spencer Gibb</name>
+    </author>
+    <id>tag:spring.io,2022-03-01:4718</id>
+    <updated>2022-03-01T17:50:29Z</updated>
+    <content type="html">&lt;p&gt;Two vulnerabilities in Spring Cloud Gateway have been identified and fixed. Versions 3.1.1 and 3.0.7 were &lt;a href="https://spring.io/blog/2022/02/18/spring-cloud-2021-0-1-has-been-released"&gt;released&lt;/a&gt; to address the vulnerabilities. Please see the CVE reports below for specific upgrade and mitigation instructions:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://tanzu.vmware.com/security/cve-2022-22947"&gt;CVE-2022-22947&lt;/a&gt;: Spring Cloud Gateway Code Injection Vulnerability&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://tanzu.vmware.com/security/cve-2022-22946"&gt;CVE-2022-22946&lt;/a&gt;: Spring Cloud Gateway HTTP2 Insecure TrustManager&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Spring Cloud users should upgrade to 2021.0.1 (which includes 3.1.1) or for 2020.0.x users should upgrade Spring Cloud Gateway to 3.0.7.&lt;/p&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Native 0.11.3 available now</title>
+    <link rel="alternate" href="https://spring.io/blog/2022/03/01/spring-native-0-11-3-available-now" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Sébastien Deleuze</name>
+    </author>
+    <id>tag:spring.io,2022-03-01:4717</id>
+    <updated>2022-03-01T08:00:00Z</updated>
+    <content type="html">&lt;p&gt;On behalf of the team and everyone who has contributed, I&amp;rsquo;m happy to announce that Spring Native &lt;code&gt;0.11.3&lt;/code&gt; has been released and is now available from &lt;a href="https://repo.spring.io/release"&gt;https://repo.spring.io/release&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This release includes &lt;a href="https://github.com/spring-projects-experimental/spring-native/releases/tag/0.11.3"&gt;25 bug fixes, documentation improvements, and dependency upgrades&lt;/a&gt; with GraalVM 22.0, Spring Boot 2.6.4 and Spring Cloud 2021.0.1. Thanks to all those who have contributed with issue reports and pull requests.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/spring-projects-experimental/spring-native"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects-experimental/spring-native/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-native/docs/0.11.3/reference/htmlsingle/"&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>Spring Shell 2.1.0-M3 is now available</title>
     <link rel="alternate" href="https://spring.io/blog/2022/02/25/spring-shell-2-1-0-m3-is-now-available" />
@@ -210,7 +282,7 @@ However, you might occasionally prefer a &lt;code&gt;List&lt;/code&gt;. In these
 &lt;h2 id="repositories-returning-lists"&gt;&lt;a class="anchor" href="#repositories-returning-lists"&gt;&lt;/a&gt;Repositories returning Lists&lt;/h2&gt;
 &lt;div class="sectionbody"&gt;
 &lt;div class="paragraph"&gt;
-&lt;p&gt;Spring Data 3.0.0-M2 now offers a &lt;a href="https://docs.spring.io/spring-data/commons/docs/3.0.0-M2/api/org/springframework/data/repository/ListCrudRepository.html"&gt;&lt;code&gt;ListCrudRepository&lt;/code&gt;&lt;/a&gt;,
+&lt;p&gt;Spring Data 3.0.0 now offers a &lt;code&gt;ListCrudRepository&lt;/code&gt; in the latest snapshot releases,
 which returns a &lt;code&gt;List&lt;/code&gt; where &lt;code&gt;CrudRepository&lt;/code&gt; returns an &lt;code&gt;Iterable&lt;/code&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="exampleblock"&gt;
@@ -268,7 +340,7 @@ public interface ListCrudRepository&amp;lt;T, ID&amp;gt; extends CrudRepository&
 &lt;h2 id="splitting-the-sorting-repositories"&gt;&lt;a class="anchor" href="#splitting-the-sorting-repositories"&gt;&lt;/a&gt;Splitting the Sorting Repositories&lt;/h2&gt;
 &lt;div class="sectionbody"&gt;
 &lt;div class="paragraph"&gt;
-&lt;p&gt;The popular &lt;a href="https://docs.spring.io/spring-data/commons/docs/3.0.0-M2/api/org/springframework/data/repository/PagingAndSortingRepository.html"&gt;&lt;code&gt;PagingAndSortingRepository&lt;/code&gt;&lt;/a&gt; used to extend from &lt;code&gt;CrudRepository&lt;/code&gt;, but it no longer does.
+&lt;p&gt;The popular &lt;code&gt;PagingAndSortingRepository&lt;/code&gt; used to extend from &lt;code&gt;CrudRepository&lt;/code&gt;, but it no longer does.
 This lets you combine it with either &lt;code&gt;CrudRepository&lt;/code&gt; or &lt;code&gt;ListCrudRepository&lt;/code&gt; or a base interface of your own creation.
 This means you now have to explicitly extend from a CRUD fragment, even when you already extend from &lt;code&gt;PagingAndSortingRepository&lt;/code&gt;.&lt;/p&gt;
 &lt;/div&gt;
@@ -308,12 +380,12 @@ This means you now have to explicitly extend from a CRUD fragment, even when you
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;a href="https://docs.spring.io/spring-data/commons/docs/3.0.0-M2/api/org/springframework/data/querydsl/QuerydslPredicateExecutor.html"&gt;&lt;code&gt;QuerydslPredicateExecutor&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
-&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;a href="https://docs.spring.io/spring-data/commons/docs/3.0.0-M2/api/org/springframework/data/querydsl/ListQuerydslPredicateExecutor.html"&gt;&lt;code&gt;ListQuerydslPredicateExecutor&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;code&gt;QuerydslPredicateExecutor&lt;/code&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;code&gt;ListQuerydslPredicateExecutor&lt;/code&gt;&lt;/p&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;a href="https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/repository/query/QueryByExampleExecutor.html"&gt;&lt;code&gt;QueryByExampleExecutor&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
-&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;a href="https://docs.spring.io/spring-data/3.0.0-M2/docs/current/api/org/springframework/data/repository/query/QueryByExampleExecutor.html"&gt;&lt;code&gt;ListQueryByExampleExecutor&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;code&gt;QueryByExampleExecutor&lt;/code&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;code&gt;ListQueryByExampleExecutor&lt;/code&gt;&lt;/p&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -333,7 +405,7 @@ This means you now have to explicitly extend from a CRUD fragment, even when you
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;a href="https://docs.spring.io/spring-data/commons/docs/3.0.0-M2/api/org/springframework/data/repository/reactive/ReactiveSortingRepository.html"&gt;&lt;code&gt;ReactiveSortingRepository&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;code&gt;ReactiveSortingRepository&lt;/code&gt;&lt;/p&gt;&lt;/td&gt;
 &lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;a href="https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/repository/reactive/ReactiveCrudRepository.html"&gt;&lt;code&gt;ReactiveCrudRepository&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -341,7 +413,7 @@ This means you now have to explicitly extend from a CRUD fragment, even when you
 &lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;code&gt;CoroutineCrudRepository&lt;/code&gt;&lt;/p&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;a href="https://docs.spring.io/spring-data/commons/docs/3.0.0-M2/api/org/springframework/data/repository/reactive/RxJava3SortingRepository.html"&gt;&lt;code&gt;Rx3JavaSortingRepository&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;code&gt;Rx3JavaSortingRepository&lt;/code&gt;&lt;/p&gt;&lt;/td&gt;
 &lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;a href="https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/repository/reactive/RxJava3SortingRepository.html"&gt;&lt;code&gt;Rx3JavaCrudRepository&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -356,7 +428,7 @@ This means you now have to explicitly extend from a CRUD fragment, even when you
 &lt;h2 id="what-about-2-x"&gt;&lt;a class="anchor" href="#what-about-2-x"&gt;&lt;/a&gt;What about 2.x?&lt;/h2&gt;
 &lt;div class="sectionbody"&gt;
 &lt;div class="paragraph"&gt;
-&lt;p&gt;If you are not ready to jump onto 3.0.0 milestones, you still have all the &lt;a href="https://stackoverflow.com/a/67413334/66686"&gt;existing options&lt;/a&gt;
+&lt;p&gt;If you are not ready to jump onto 3.0.0 snapshots, you still have all the &lt;a href="https://stackoverflow.com/a/67413334/66686"&gt;existing options&lt;/a&gt;
 to avoid dealing with &lt;code&gt;Iterable&lt;/code&gt; as a return value.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="olist arabic"&gt;
@@ -907,129 +979,6 @@ dependencyManagement {&#xD;
 &lt;div class="paragraph"&gt;
 &lt;p&gt;&lt;a href="https://spring.io/projects/spring-ldap"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-ldap"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-ldap/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-ldap/docs/2.4.0-M2/reference/"&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>A Bootiful Podcast: Java team luminary Sharat Chander</title>
-    <link rel="alternate" href="https://spring.io/blog/2022/02/17/a-bootiful-podcast-java-team-luminary-sharat-chander" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2022-02-17:4702</id>
-    <updated>2022-02-17T20:00:00Z</updated>
-    <content type="html">&lt;p&gt;Hi, Spring fans! Welcome to another installment of &lt;em&gt;A Bootiful Podcast&lt;/em&gt;! This week, &lt;a href="https://twitter.com/starbuxman"&gt;Josh Long (@starbuxman)&lt;/a&gt;  talks to &lt;a href="https://twitter.com/java"&gt;@Java&lt;/a&gt; team luminary and community legend &lt;a href="https://twitter.com/sharat_chander"&gt;Sharat Chander (@sharat_chander)&lt;/a&gt;. &lt;/p&gt;
-&lt;iframe title="Java team luminary Sharat Chander" allowtransparency="true" height="150" width="100%" style="border: none; min-width: min(100%, 430px);" scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=bfvea-11ad2f0-pb&amp;from=pb6admin&amp;share=1&amp;download=1&amp;rtl=0&amp;fonts=Arial&amp;skin=1&amp;font-color=&amp;btn-skin=7"&gt;&lt;/iframe&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Framework 5.3.16 available now</title>
-    <link rel="alternate" href="https://spring.io/blog/2022/02/17/spring-framework-5-3-16-available-now" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Stéphane Nicoll</name>
-    </author>
-    <id>tag:spring.io,2022-02-17:4700</id>
-    <updated>2022-02-17T09:15:34Z</updated>
-    <content type="html">&lt;p&gt;On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Framework &lt;code&gt;5.3.16&lt;/code&gt; is available now.&lt;/p&gt;
-&lt;p&gt;Spring Framework &lt;code&gt;5.3.16&lt;/code&gt; includes &lt;a href="https://github.com/spring-projects/spring-framework/releases/tag/v5.3.16"&gt;33 fixes and improvements&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Stay tuned for follow-up Spring Boot releases next week.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://projects.spring.io/spring-framework/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-framework"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-framework/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-framework/docs/5.3.16/reference/html/"&gt;Documentation&lt;/a&gt;&lt;/p&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>Azure Spring Cloud Enterprise is now available in preview</title>
-    <link rel="alternate" href="https://spring.io/blog/2022/02/16/azure-spring-cloud-enterprise-is-now-available-in-preview" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2022-02-16:4699</id>
-    <updated>2022-02-16T16:00:00Z</updated>
-    <content type="html">&lt;p&gt;Hi, Spring fans! I wanted to share this post by &lt;strong&gt;Julia Liuson, President, Developer Division at Microsoft&lt;/strong&gt;. &lt;/p&gt;
-&lt;p&gt;When we launched Azure Spring Cloud with VMware in 2019, we set out to solve common challenges developers, IT operators, and DevOps teams face when running Spring Boot applications at scale. Since then we’ve had the opportunity to work with many customers to help them adopt the service including &lt;a href="https://www.youtube.com/watch?v=wdwjqXTFFZ0"&gt;Bosch&lt;/a&gt;, &lt;a href="https://devblogs.microsoft.com/java/deploy-spring-boot-applications-by-leveraging-enterprise-best-practices/"&gt;Digital Realty&lt;/a&gt;, &lt;a href="https://www.youtube.com/watch?v=EfgiW6xJseM"&gt;Kroger&lt;/a&gt;, &lt;a href="https://customers.microsoft.com/en-us/story/1449469395802117015-liantis-professional-services-scales-hr-affairs-applications-azure-spring-cloud"&gt;Liantis&lt;/a&gt;, &lt;a href="https://www.youtube.com/watch?v=wdwjqXTFFZ0"&gt;Morgan Stanley&lt;/a&gt;, &lt;a href="https://techcommunity.microsoft.com/t5/apps-on-azure-blog/secure-communications-end-to-end-for-spring-boot-apps-in-zero/ba-p/3033438"&gt;National Life&lt;/a&gt;, &lt;a href="https://customers.microsoft.com/en-us/story/1388620728739667057-raleys-uses-azure-spring-cloud-to-optimize-scale-and-drive-innovation"&gt;Raley’s&lt;/a&gt;, and &lt;a href="https://customers.microsoft.com/en-us/story/1358540087031302788-swiss-re-accelerates-java-app-modernization-using-azure-spring-cloud"&gt;Swiss Re&lt;/a&gt;. They value the fully managed infrastructure of Azure Spring Cloud that lets them focus on their apps, while the service manages dynamic scaling, security patching, out-of-the-box instrumentation for monitoring, and more.&lt;/p&gt;
-&lt;p&gt;Many organizations are running thousands of Spring Boot applications on-premises and need advanced capabilities to accelerate their Spring modernization projects. Based on our learnings from customer engagements, we built a new Azure Spring Cloud tier—Enterprise—that we &lt;a href="https://azure.microsoft.com/en-us/blog/announcing-azure-spring-cloud-enterprise-fully-managed-vmware-tanzu-components-and-configurability-for-spring-boot-apps/"&gt;announced at SpringOne 2021&lt;/a&gt; in private preview. Azure Spring Cloud Enterprise includes commercially supported Spring runtime components to help enterprise customers ship faster and unlock Spring’s full potential. We are thankful to the many customers and partners who participated in the private preview and shared their learnings, and we are excited to announce that Azure Spring Cloud Enterprise is now available in public preview.&lt;/p&gt;
-&lt;p&gt;Azure Spring Cloud Enterprise represents our continued collaboration with VMware to combine Microsoft’s cloud platform expertise with VMware’s innovative &lt;a href="https://tanzu.vmware.com/tanzu"&gt;Tanzu&lt;/a&gt; portfolio. We’re also committed to making it an application platform where you can deploy polyglot applications that are inherently portable across any Azure service, any cloud, or any on-premises system. With Azure Spring Cloud Enterprise, you gain productivity and access to Spring experts for Spring app development and deployments. Azure Spring Cloud Enterprise builds on top of all the features available in Standard tier, including the ability to leverage the broader Azure ecosystem to super charge your Spring Boot applications. &lt;/p&gt;
-&lt;p&gt;&lt;img src="https://github.com/joshlong/blog-images/raw/master/azure-spring-cloud-enterprise/Figure-1-Choose-Azure-Spring-Cloud-Enterprise-no-pricing.jpg" alt="Figure 1: Azure Spring Cloud tier selection now includes Enterprise" /&gt;&lt;br/&gt;&lt;em&gt;Figure 1: Azure Spring Cloud tier selection now includes Enterprise&lt;/em&gt;&lt;/p&gt;&lt;h2&gt;&lt;a href="#1-ship-faster" class="anchor" name="1-ship-faster"&gt;&lt;/a&gt;1 - Ship faster&lt;/h2&gt;&lt;h3&gt;&lt;a href="#deploy-and-manage-spring-and-polyglot-applications" class="anchor" name="deploy-and-manage-spring-and-polyglot-applications"&gt;&lt;/a&gt;Deploy and manage Spring and polyglot applications&lt;/h3&gt;
-&lt;p&gt;The &lt;a href="https://docs.microsoft.com/en-us/azure/spring-cloud/how-to-enterprise-build-service?tabs=azure-portal"&gt;fully managed&lt;/a&gt; VMware Tanzu Build Service in Azure Spring Cloud Enterprise automates container creation, management, and governance at enterprise scale using open source &lt;a href="https://buildpacks.io/"&gt;Cloud Native Buildpacks&lt;/a&gt; and commercial &lt;a href="https://docs.pivotal.io/tanzu-buildpacks/"&gt;VMware Tanzu Buildpacks&lt;/a&gt;. Tanzu Build Service offers a higher-level abstraction for building apps and provides a balance of control that reduces the operational burden on developers and supports enterprise IT operators who manage applications at scale. You can configure what Buildpacks to apply and build Spring applications and polyglot applications that run alongside Spring applications on Azure Spring Cloud.&lt;/p&gt;
-&lt;p&gt;Tanzu Buildpacks make it easier to &lt;a href="https://docs.microsoft.com/en-us/azure/spring-cloud/how-to-enterprise-deploy-non-java-apps?"&gt;build&lt;/a&gt; Spring, Java, NodeJS, Python, Go, and .NET Core applications and configure application performance monitoring agents such as Application Insights, New Relic, Dynatrace, AppDynamics, and Elastic.&lt;/p&gt;&lt;h3&gt;&lt;a href="#effortlessly-route-client-requests-to-applications" class="anchor" name="effortlessly-route-client-requests-to-applications"&gt;&lt;/a&gt;Effortlessly route client requests to applications&lt;/h3&gt;
-&lt;p&gt;You can easily manage and discover request routes and APIs exposed by applications using the &lt;a href="https://docs.microsoft.com/en-us/azure/spring-cloud/how-to-use-enterprise-spring-cloud-gateway"&gt;fully managed&lt;/a&gt; Spring Cloud Gateway for VMware Tanzu and API portal for VMware Tanzu.&lt;/p&gt;
-&lt;p&gt;Spring Cloud Gateway for Tanzu effectively routes diverse client requests to applications in Azure Spring Cloud, Azure and/or on-premises, and addresses cross-cutting considerations for applications behind the Gateway such as securing, routing, rate limiting, caching, monitoring, resiliency and hiding applications. You can configure: &lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Single sign-on integration with your preferred identity provider without any additional code or dependencies&lt;/li&gt;
-  &lt;li&gt;Dynamic routing rules to applications without any application redeployment&lt;/li&gt;
-  &lt;li&gt;Request throttling without any backing services&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;API portal for VMware Tanzu provides API consumers the ability to find and view API route details exposed by Spring Cloud Gateway for Tanzu and test API requests.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://raw.githubusercontent.com/joshlong/blog-images/master/azure-spring-cloud-enterprise/Figure-2-Fully-Managed-Tanzu-Spring-Cloud-Gateway.jpg" alt="Fully managed Spring Cloud Gateway for Tanzu routes diverse client requests to applications in Azure Spring Cloud, Azure and/or on-premises systems" /&gt;&lt;br/&gt;&lt;em&gt;Figure 2 – Fully managed Spring Cloud Gateway for Tanzu routes diverse client requests to applications in Azure Spring Cloud, Azure and/or on-premises systems&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://github.com/joshlong/blog-images/raw/master/azure-spring-cloud-enterprise/Figure-3-API-Portal-for-VMware-Tanzu.jpg" alt="Figure 3 – API portal for VMware Tanzu visualizes APIs that are accessible from Spring Cloud Gateway for Tanzu and other OpenAPI-compliant sources" /&gt;&lt;br/&gt;&lt;em&gt;Figure 3 – API portal for VMware Tanzu visualizes APIs that are accessible from Spring Cloud Gateway for Tanzu and other OpenAPI-compliant sources&lt;/em&gt;&lt;/p&gt;&lt;h3&gt;&lt;a href="#flexible-and-configurable-vmware-tanzu-components" class="anchor" name="flexible-and-configurable-vmware-tanzu-components"&gt;&lt;/a&gt;Flexible and configurable VMware Tanzu components&lt;/h3&gt;
-&lt;p&gt;With Azure Spring Cloud Enterprise, customers can use fully managed VMware Tanzu components on Azure. Customers can select which VMware Tanzu components they want to use in their environment during Enterprise instance creation. Tanzu Build Service, Spring Cloud Gateway for Tanzu, API portal for VMware Tanzu, Application Configuration Service for VMware Tanzu, and VMware Tanzu Service Registry are available during public preview. &lt;/p&gt;
-&lt;p&gt;VMware Tanzu components deliver increased value to customers such that you can:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Grow your enterprise grade application portfolio from a few applications to thousands with end-to-end observability while delegating operational complexity to Microsoft and VMware&lt;/li&gt;
-  &lt;li&gt;Lift and shift Spring applications across Azure Spring Cloud and any other compute environment&lt;/li&gt;
-  &lt;li&gt;Control your build dependencies, deploy polyglot applications, and deploy Spring Cloud middleware components as needed&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Microsoft and VMware will continue to add more enterprise-grade features, including Tanzu components such as Application Live View for VMware Tanzu, VMware Tanzu Application Accelerator for VMware Tanzu, and Spring Cloud Data Flow for VMware Tanzu*.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;* The Azure Spring Cloud Enterprise roadmap is not confirmed and is subject to change.&lt;/em&gt; &lt;/p&gt;&lt;h2&gt;&lt;a href="#2-unlock-spring-s-full-potential-with-long-term-support-lts" class="anchor" name="2-unlock-spring-s-full-potential-with-long-term-support-lts"&gt;&lt;/a&gt;2 - Unlock Spring’s full potential with Long-Term Support (LTS)&lt;/h2&gt;
-&lt;p&gt;Azure Spring Cloud Enterprise includes VMware Spring Runtime Support for application development and deployments. This support gives you access to Spring experts, enabling you to unlock the full potential of the Spring ecosystem and develop and deploy applications faster.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://github.com/joshlong/blog-images/raw/master/azure-spring-cloud-enterprise/Figure-3-API-Portal-for-VMware-Tanzu.jpg" alt="Figure 3 – API portal for VMware Tanzu visualizes APIs that are accessible from Spring Cloud Gateway for Tanzu and other OpenAPI-compliant sources" /&gt;&lt;br/&gt;&lt;em&gt;Figure 3 – API portal for VMware Tanzu visualizes APIs that are accessible from Spring Cloud Gateway for Tanzu and other OpenAPI-compliant sources&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://raw.githubusercontent.com/joshlong/blog-images/master/azure-spring-cloud-enterprise/Figure-4-Unlock-Springs-Full-Potential.jpg" alt="Figure 4 – Do more with Spring framework through world-class support for Spring projects" /&gt;&lt;br/&gt;&lt;em&gt;Figure 4 – Do more with Spring framework through world-class support for Spring projects&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Typically, open source Spring project minor releases are supported for a minimum of 12 months from the date of initial release. In Azure Spring Cloud Enterprise, Spring project minor releases will receive commercial support for a minimum of 24 months* from the date of initial release through the VMware Spring Runtime Support entitlement. This extended support ensures the security and stability of your Spring application portfolio even after the open source end-of-life dates. &lt;/p&gt;
-&lt;p&gt;* You can find the current support timelines &lt;a href="https://spring.io/"&gt;for Spring projects at the Spring Initializr - start.spring.io&lt;/a&gt; &lt;/p&gt;
-&lt;p&gt;&lt;img src="https://raw.githubusercontent.com/joshlong/blog-images/master/azure-spring-cloud-enterprise/Figure-5-Example-Commercial-Support-for-Spring-Boot.jpg" alt="Figure 5 – Commercial support timeline for Spring Boot (link to source)" /&gt;&lt;br/&gt;&lt;em&gt;Figure 5 – Commercial support timeline for Spring Boot (link to source)&lt;/em&gt;&lt;/p&gt;&lt;h2&gt;&lt;a href="#3-fully-integrated-into-the-azure-and-the-java-ecosystem" class="anchor" name="3-fully-integrated-into-the-azure-and-the-java-ecosystem"&gt;&lt;/a&gt;3 - Fully integrated into the Azure and the Java ecosystem&lt;/h2&gt;
-&lt;p&gt;Azure Spring Cloud, including Enterprise tier, runs on Azure in a fully managed environment. You get all the benefits of Azure and the Java ecosystem, and the experience is familiar and intuitive:&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Common development practices &lt;/th&gt;
-      &lt;th&gt;Azure ecosystem &lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Create service instances using a provisioning tool &lt;/td&gt;
-      &lt;td&gt;Azure Portal, CLI, ARM Template, Bicep, or Terraform &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Automate environments and application deployments &lt;/td&gt;
-      &lt;td&gt;GitHub, Azure DevOps, GitLab, and Jenkins &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Monitor end-to-end using any tool and platform &lt;/td&gt;
-      &lt;td&gt;Application Insights, Azure Log Analytics, Splunk, Elastic, New Relic, Dynatrace, or AppDynamics &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Connect Spring applications and interact with your cloud services &lt;/td&gt;
-      &lt;td&gt;Spring integrations with Azure services for data, messaging, eventing, cache, storage, and directories &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Securely load app secrets and certificates &lt;/td&gt;
-      &lt;td&gt;Azure Key Vault &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Use familiar development tools &lt;/td&gt;
-      &lt;td&gt;IntelliJ, VS Code, Eclipse, Spring Tool Suite, Maven, or Gradle &lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;For example, after you create your Enterprise service instance and deploy your applications, you can easily monitor with Application Insights or any other application performance management tools of your choice.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://github.com/joshlong/blog-images/raw/master/azure-spring-cloud-enterprise/Figure-6-Example-Application-Map-in-Application-Insights.jpg" alt="Figure 6 – Application Transactions visible through Application Insights Application Map" /&gt;&lt;br/&gt;&lt;em&gt;Figure 6 – Application Transactions visible through Application Insights Application Map&lt;/em&gt;&lt;/p&gt;&lt;h2&gt;&lt;a href="#4-get-started-today" class="anchor" name="4-get-started-today"&gt;&lt;/a&gt;4 - Get started today!&lt;/h2&gt;
-&lt;p&gt;Azure Spring Cloud Enterprise delivers even more productivity, and you can leverage Spring experts to make your projects even more successful. We would love to see you try Enterprise and share your feedback – &lt;a href="https://docs.microsoft.com/en-us/azure/spring-cloud/quickstart-provision-service-instance-enterprise?tabs=azure-portal"&gt;start now&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You can also learn more about Azure Spring Cloud Enterprise Public Preview announcement &lt;a href="https://tanzu.vmware.com/"&gt;by VMware&lt;/a&gt;.&lt;/p&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Tips: Spring Native and MyBatis</title>
-    <link rel="alternate" href="https://spring.io/blog/2022/02/16/spring-tips-spring-native-and-mybatis" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2022-02-15:4697</id>
-    <updated>2022-02-16T09:00:00Z</updated>
-    <content type="html">&lt;p&gt;Hi, Spring fans! In this installment, we look at how to use the MyBatis data mapper project&amp;rsquo;s new Spring Native hints to build GraalVM native images&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/EWWq3ts9Tv4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
 </feed>

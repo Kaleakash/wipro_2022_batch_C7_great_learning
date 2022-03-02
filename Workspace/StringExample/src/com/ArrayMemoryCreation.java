@@ -11,6 +11,7 @@ public class ArrayMemoryCreation {
 		int n = sc.nextInt();
 		int []id=new int[n];
 		String []names=new String[n];
+		
 		for(int i=0;i<n;i++) {
 			System.out.println("Enter id and name of "+(i+1));
 			id[i]=sc.nextInt();
