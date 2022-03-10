@@ -27,7 +27,6 @@ class Xyz implements Runnable{
 			// TODO: handle exception
 		}
 	}
-		
 	}
 }
 public class DemoDaemonThread {
