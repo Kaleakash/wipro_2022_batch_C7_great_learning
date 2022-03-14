@@ -9,7 +9,6 @@ INDEX VERSION 1.131+D:\Desktop\GreatLearning Demo Session\Batch 7\Workspace\.met
 3005760387.index
 1131623180.index
 1829887301.index
-1991180421.index
 3983172868.index
 360876834.index
 3058141218.index

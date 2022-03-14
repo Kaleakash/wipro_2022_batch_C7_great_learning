@@ -12,6 +12,7 @@ public class ByteWiseFileOperation {
 		int ch;
 		while((ch= dis.read()) != '@') { //EOF = -1 
 			fos.write(ch);
+			System.out.print(ch+" "+(char)ch);
 		}
 		fos.close();
 	}

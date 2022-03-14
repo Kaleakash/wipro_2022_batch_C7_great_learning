@@ -1,6 +1,6 @@
 package com;
 interface Abc {
-		void dis1();
+		void dis1();			// by default public 
 }
 class Xyz implements Abc {
 	public void dis1() {
