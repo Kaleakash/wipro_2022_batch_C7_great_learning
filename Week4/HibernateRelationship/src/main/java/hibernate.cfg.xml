@@ -8,6 +8,7 @@
   <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/batch7</property>
   <property name="hibernate.connection.username">root</property>
   <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
-  <mapping class="com.bean.Employee"/>
+  <mapping class="com.Trainer"/>
+  <mapping class="com.Student"/>
  </session-factory>
 </hibernate-configuration>
