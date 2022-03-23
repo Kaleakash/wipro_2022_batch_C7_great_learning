@@ -34,6 +34,47 @@ JSTL dependencies
 </dependency>
 
 
+persistence.xml 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0"
+             xmlns="http://java.sun.com/xml/ns/persistence" 
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence 
+             http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+
+    <persistence-unit name="my_mongodb" transaction-type="JTA">
+       <provider>org.hibernate.ogm.jpa.HibernateOgmPersistence</provider>
+        <properties>
+         <property name="hibernate.ogm.datastore.provider" value="MONGODB" />
+        <property name="hibernate.ogm.datastore.database" value="Test" />
+        <property name="hibernate.ogm.datastore.create_database" value="true" />
+        </properties>
+    </persistence-unit>
+</persistence>
+
+
+Hibernate with OGM dependencies 
+
+<dependency>
+    <groupId>org.hibernate.ogm</groupId>
+    <artifactId>hibernate-ogm-mongodb</artifactId>
+    <version>5.4.0.Final</version>
+</dependency>
+
+<dependency>
+    <groupId>org.jboss.narayana.jta</groupId>
+    <artifactId>narayana-jta</artifactId>
+    <version>5.9.2.Final</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api -->
+
+<dependency>
+    <groupId>javax.xml.bind</groupId>
+    <artifactId>jaxb-api</artifactId>
+    <version>2.1</version>
+</dependency>
+
 
 Spring core 
 
