@@ -7,6 +7,27 @@ Java version
   </properties>
 
 
+mongo Db connectivity dependency 
+
+<dependency>
+    <groupId>org.hibernate.ogm</groupId>
+    <artifactId>hibernate-ogm-mongodb</artifactId>
+    <version>5.4.0.Final</version>
+</dependency>
+<dependency>
+    <groupId>org.jboss.narayana.jta</groupId>
+    <artifactId>narayana-jta</artifactId>
+    <version>5.9.2.Final</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api -->
+<dependency>
+    <groupId>javax.xml.bind</groupId>
+    <artifactId>jaxb-api</artifactId>
+    <version>2.1</version>
+</dependency>
+
+
+
 My SQL Connector 
 
 <dependency>
