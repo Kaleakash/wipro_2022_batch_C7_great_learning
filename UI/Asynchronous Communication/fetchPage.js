@@ -1,0 +1,1 @@
+fetch("https://reqres.in/api/products").then(res=>res.json()).then(result=>console.log(result)).catch(error=>console.log(error));
