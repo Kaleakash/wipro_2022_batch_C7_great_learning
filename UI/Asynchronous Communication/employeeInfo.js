@@ -1,15 +1,30 @@
-function loadData() {
+async function loadData() {
     // fetch("http://localhost:3000/employees").
     // then(res=>res.json()).then(result=>console.log(result)).catch(error=>console.log(error));
  
+    //ES6 style 
+    // fetch("http://localhost:3000/employees").
+    // then(res=>res.json()).then(result=>{
+    //         let empRow = result.map(emp=>"<li>"+emp.id+" "+emp.name+" "+emp.age+"</li>");
+    //         console.log(empRow)
+    //         document.getElementById("data").innerHTML=empRow
+    // }).catch(error=>console.log(error));
 
-    fetch("http://localhost:3000/employees").
-    then(res=>res.json()).then(result=>{
-            let empRow = result.map(emp=>"<li>"+emp.id+" "+emp.name+" "+emp.age+"</li>");
-            console.log(empRow)
-            document.getElementById("data").innerHTML=empRow
-    }).catch(error=>console.log(error));
+   // ES7 style
+   try{
+   let response =await fetch("http://localhost:3000/employees");
+   let result = await response.json();
+   let empRow = result.map(emp=>"<li>"+emp.id+" "+emp.name+" "+emp.age+"</li>");
+    // console.log(empRow)
+    document.getElementById("data").innerHTML=empRow
+   }catch(e){
+       console.log(e)
+   }
 }
+
+
+
+
 function addEmloyee() {
     let idValue = document.getElementById("id").value
     let nameValue = document.getElementById("name").value
