@@ -1,0 +1,28 @@
+<div>
+    <h2>Structure directive </h2>
+    <p>First Paragraph</p>
+    <p *ngIf="true">Second Paragraph</p>
+    <p *ngIf="false">Third Paragraph</p>
+    <p *ngIf="f1">Fourth Paragraph</p>
+    <p *ngIf="f2">Fourth Paragraph</p>
+
+    <input type="button" value="click" (click)="fun1()"/>
+    <div *ngIf="f3">
+            Welcome to Angular
+    </div>
+    <br/>
+    <input type="button" [value]="b1" (click)="toggle()"/>
+    <br/>
+    <div *ngIf="flag">
+        Welcome to Angular Training
+    </div>
+    <br/>
+    <div *ngIf="flag; then myVariable else anotherVariable"></div>
+
+    <ng-template #myVariable>
+           Yes..............
+    </ng-template>
+    <ng-template #anotherVariable>
+            No............
+    </ng-template>
+</div>
