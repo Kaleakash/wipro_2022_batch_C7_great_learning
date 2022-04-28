@@ -1,5 +1,6 @@
 <div>
     <h2>Structure directive </h2>
+    <h2>*ngIf</h2>
     <p>First Paragraph</p>
     <p *ngIf="true">Second Paragraph</p>
     <p *ngIf="false">Third Paragraph</p>
@@ -25,4 +26,39 @@
     <ng-template #anotherVariable>
             No............
     </ng-template>
+    <br/>
+    <h2>ngFor</h2>
+    <p>Names : {{names}}</p>
+    <h3>All student names</h3>
+    <p *ngFor="let name of names">{{name}}</p>
+    <ul >
+        <li *ngFor="let std of names;let i=index;">
+            <span *ngIf = "i%2==0">Index is {{i}} value {{std}}</span>
+        </li>
+    </ul>
+    <br/>
+    <p>Custemer details is {{c1}}</p>
+    <p>Customer details is : id {{c1.cid}}, name {{c1.cname}}, Age {{c1.cage}}</p>
+    <h3>All Customer Details </h3>
+    <table border="1">
+        <tr>
+            <th>CId</th>
+            <th>CName</th>
+            <th>Age</th>
+        </tr>
+        <tr *ngFor="let cust of customers">
+                <td>{{cust.cid}}</td>
+                <td>{{cust.cname}}</td>
+                <td>{{cust.cage}}</td>
+        </tr>
+    </table>
 </div>
+
+
+
+
+
+
+
+
+

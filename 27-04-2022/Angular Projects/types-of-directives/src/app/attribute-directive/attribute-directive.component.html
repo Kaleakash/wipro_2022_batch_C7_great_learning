@@ -1,0 +1,12 @@
+<div>
+    <h1>Attribute directive</h1>
+    <div style="color:red;">apply style sheet using inline css </div>
+    <div [ngStyle]="{'color':'red'}">apply style sheet using ngStyle</div>
+    <div [ngStyle]="styleVariable">apply style sheet using ngStyle with variable</div>
+<div class="myClass1">This is class selector using normal css</div>
+    <div class="myClass1 myClass2">This multiple class selector using normal css</div>
+<div [ngClass]=" 'myClass1' ">This is class selector using ngStyle </div>
+<div [ngClass]="{myClass1:true}">This is class selector using ngStyle </div>
+<div [ngClass]="{myClass1:true,myClass2:true}">This is class selector using ngStyle </div>
+<div [ngClass]="{myClass1:f1,myClass2:f2}">This is class selector using ngStyle </div>
+</div>
