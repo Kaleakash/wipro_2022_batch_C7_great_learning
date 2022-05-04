@@ -4,6 +4,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { TdfLoginPageComponent } from './tdf-login-page/tdf-login-page.component';
 import { MdfLoginPageComponent } from './mdf-login-page/mdf-login-page.component';
+import { LoginService } from './login.service';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,7 @@ import { MdfLoginPageComponent } from './mdf-login-page/mdf-login-page.component
   imports: [
     BrowserModule,FormsModule,ReactiveFormsModule
   ],
-  providers: [],
+  providers: [LoginService],          // provide service class details.  
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -3,14 +3,14 @@
     <form #loginRef="ngForm" (ngSubmit)="checkUser(loginRef)">
         <label>EmailId</label>
             <input type="email" name="email"  ngModel required minlength="3"/>
-            <div *ngIf="loginRef.controls['email'].invalid && (loginRef.controls['email'].dirty || loginRef.controls['email'].touched)">
+            <div *ngIf="loginRef.controls['email']?.invalid && (loginRef.controls['email']?.dirty || loginRef.controls['email']?.touched)">
                  <span [hidden]="!loginRef.controls['email'].errors?.['required']" style="color:red">UserName is required</span> 
                  <span [hidden]="!loginRef.controls['email'].errors?.['minlength']">UserName must be 3 character</span>   
             </div>
             <br/>
         <label>Password</label>
              <input type="password" name="pass" ngModel required pattern="[a-z,0-9]*"/>
-             <div *ngIf="loginRef.controls['pass'].invalid && (loginRef.controls['pass'].dirty || loginRef.controls['pass'].touched)">
+             <div *ngIf="loginRef.controls['pass']?.invalid && (loginRef.controls['pass']?.dirty || loginRef.controls['pass']?.touched)">
                 <span [hidden]="!loginRef.controls['pass'].errors?.['required']" style="color:red">Password is required</span> 
                 <span [hidden]="!loginRef.controls['pass'].errors?.['pattern']">Pattern must be match</span>   
            </div>      
