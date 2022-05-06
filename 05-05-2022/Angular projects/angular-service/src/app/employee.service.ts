@@ -13,4 +13,8 @@ export class EmployeeService {
   loadEmployeeDetails():Observable<Employee[]>{
     return this.http.get<Employee[]>("http://localhost:3000/employees");
   }
+
+  storeEmployeeDetails(employee:Employee): Observable<any> {
+    return this.http.post("http://localhost:3000/employees",employee);
+  }
 }

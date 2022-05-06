@@ -1,4 +1,15 @@
 <div>
+
+    <form [formGroup]="employeeRef" (ngSubmit)="storeData()">
+        <label>Id</label>
+        <input type="number" formControlName="id"/><br/>
+        <label>Name</label>
+        <input type="text" formControlName="name"/><br/>
+        <label>Age</label>
+        <input type="number" formControlName="age"/><br/>
+        <input type="submit" value="Store Data"/>
+        <input type="reset" value="reset"/>
+    </form>
     <h2>Employee Details</h2>
     <input type="button" value="load the data" (click)="loadEmpoyeeDetails()"/>
 

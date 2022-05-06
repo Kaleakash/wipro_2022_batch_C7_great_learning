@@ -5,6 +5,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { ProductComponent } from './product/product.component';
 import { EmployeeComponent } from './employee/employee.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,7 @@ import { EmployeeComponent } from './employee/employee.component';
     EmployeeComponent
   ],
   imports: [
-    BrowserModule,HttpClientModule
+    BrowserModule,HttpClientModule,ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
