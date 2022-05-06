@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Product } from '../product';
 import { ProductService } from '../product.service';
 
 @Component({
@@ -8,6 +9,7 @@ import { ProductService } from '../product.service';
 })
 export class ProductComponent implements OnInit {
 
+  products:Array<Product>=[];
   constructor(public pser:ProductService) { }   // DI for Service class 
 
   ngOnInit(): void {
@@ -15,6 +17,8 @@ export class ProductComponent implements OnInit {
 
   loadProducts() {
     console.log("event called..")
-    this.pser.loadFakeProduct();
+    this.pser.loadFakeProduct().subscribe(result=>this.products=result,
+      error=>console.log(error),
+      ()=>console.log("done!"))
   }
 }
