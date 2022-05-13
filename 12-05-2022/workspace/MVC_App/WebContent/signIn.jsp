@@ -7,6 +7,15 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	<h2>Login Page</h2>
+	<form action="LoginController" method="get">
+	<label>EmailId</label>
+	<input type="email" name="email"><br/>
+	<label>Password</label>
+	<input type="password" name="password"><br/>
+	<input type="submit" value="Sign In">
+	<input type="reset" value="reset">
+	</form>
+	<a href="signUp.jsp">SignUp</a>
 </body>
 </html>

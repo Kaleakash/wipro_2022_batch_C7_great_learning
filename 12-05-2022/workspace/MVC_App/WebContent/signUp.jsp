@@ -7,6 +7,16 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	<h2>Account Create</h2>
+	<form action="LoginController" method="post">
+	<label>EmailId</label>
+	<input type="email" name="email"><br/>
+	<label>Password</label>
+	<input type="password" name="password"><br/>
+	<input type="submit" value="Sign Up">
+	<input type="reset" value="reset">
+	</form>
+	<br/>
+	<a href="singIn.jsp">Login Page</a>
 </body>
 </html>
