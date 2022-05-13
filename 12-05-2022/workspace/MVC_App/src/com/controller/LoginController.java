@@ -34,6 +34,8 @@ public class LoginController extends HttpServlet {
 		//response.getWriter().append("Served at: ").append(request.getContextPath());
 		
 				//doGet(request, response);
+				response.setContentType("text/html");
+				
 				PrintWriter pw = response.getWriter();
 				// receive the value through forms. 
 				
