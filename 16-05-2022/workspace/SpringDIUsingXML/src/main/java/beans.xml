@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+
+<bean class="com.Employee" id="obj1" scope="singleton"></bean>
+
+<bean class="com.Employee" id="obj2" scope="prototype"></bean>
+
+
+<bean class="com.Employee" id="obj3">
+	<constructor-arg value="1" ></constructor-arg>
+	<constructor-arg value="Ravi"></constructor-arg>
+	<constructor-arg value="12000"></constructor-arg>
+</bean>
+
+<bean class="com.Employee" id="obj4">
+	<property name="id" value="2"></property>
+	<property name="name" value="Ramemsh"></property>
+	<property name="salary" value="24000"></property>
+</bean>
+</beans>
