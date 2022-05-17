@@ -19,4 +19,28 @@
 	<property name="name" value="Ramemsh"></property>
 	<property name="salary" value="24000"></property>
 </bean>
+
+
+
+
+<bean class="com.Employee" id="emp1" autowire="byName">
+	<property name="id" value="3"></property>
+	<property name="name" value="Ajay"></property>
+	<property name="salary" value="28000"></property>
+<!--  <property name="add" ref="add1"></property>		-->	
+</bean>
+
+
+<bean class="com.Address" id="add1">
+	<property name="city" value="Bangalore"></property>
+	<property name="state" value="Kar"></property>
+</bean>
+
+<bean class="com.Address" id="add">
+	<property name="city" value="Mumbai"></property>
+	<property name="state" value="Mh"></property>
+</bean>
+
 </beans>
+
+
