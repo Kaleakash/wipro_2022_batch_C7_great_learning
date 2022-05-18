@@ -35,4 +35,22 @@ public class EmployeeDao {
 		}
 		return listOfEmp;
 	}
+	
+	
+	public int storeEmployee(Employee emp) {
+		
+		try {
+			Connection con = ds.getConnection();
+			PreparedStatement pstmt = con.prepareStatement("insert into employee values(?,?,?)");
+			pstmt.setInt(1, emp.getId());
+			pstmt.setString(2, emp.getName());
+			pstmt.setFloat(3, emp.getSalary());
+			return pstmt.executeUpdate();
+		} catch (Exception e) {
+			// TODO: handle exception
+			System.out.println(e);
+			return 0;
+		}
+
+	}
 }

@@ -20,5 +20,11 @@ public class EmployeeService {
 		return employeeDao.getAllEmloyeeDetails();
 	}
 	
-	
+	public String storeEmployee(Employee emp) {
+		if(employeeDao.storeEmployee(emp)>0) {
+			return "success stored";
+		}else {
+			return "didn't store";
+		}
+	}
 }

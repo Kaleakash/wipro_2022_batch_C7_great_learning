@@ -12,6 +12,7 @@ public class DemoTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 //BeanFactory bean = new XmlBeanFactory(new ClassPathResource("beans.xml"))
+
 //ApplicationContext ac = new ClassPathXmlApplicationContext("beans.xml");
 //Employee emp = (Employee)ac.getBean("employee");
 //System.out.println(emp);

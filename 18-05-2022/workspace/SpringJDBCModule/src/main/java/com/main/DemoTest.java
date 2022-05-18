@@ -19,9 +19,15 @@ public class DemoTest {
 	ApplicationContext ac = new ClassPathXmlApplicationContext("beans.xml");
 	
 	EmployeeService es = (EmployeeService)ac.getBean("employeeService");
-	List<Employee> listOfemp  = es.getAllEmployeeDetails();
+//	List<Employee> listOfemp  = es.getAllEmployeeDetails();
+//	listOfemp.forEach(emp->System.out.println(emp));
 	
-	listOfemp.forEach(emp->System.out.println(emp));
+	Employee emp = (Employee)ac.getBean("employee");
+	emp.setId(104);
+	emp.setName("Balaji");
+	emp.setSalary(26000);
+	String res = es.storeEmployee(emp);
+	System.out.println(res);
 	}
 
 }
