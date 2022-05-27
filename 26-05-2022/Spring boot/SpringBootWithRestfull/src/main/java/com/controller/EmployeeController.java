@@ -9,6 +9,7 @@ import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -82,10 +83,23 @@ public class EmployeeController {
 		}
 		// http://localhost:8080/storeEmployee 
 		
-		@RequestMapping(value="storeEmployee",consumes = MediaType.APPLICATION_JSON_VALUE)
+		@RequestMapping(value="storeEmployee",consumes = MediaType.APPLICATION_JSON_VALUE,
+				method = RequestMethod.POST)
 		public String storeEmployeeInfo(@RequestBody Employee emp) {
 			System.out.println(emp);
 			return "Welcome user to post method "+emp.getName();
 		}
+		// http://localhost:8080/updateEmployee 
+		@RequestMapping(value="updateEmployee",consumes = MediaType.APPLICATION_JSON_VALUE,
+				method = RequestMethod.PUT)
+		public String updateEmployee(@RequestBody Employee emp) {
+			System.out.println(emp);
+			return "Welcoem user to put method "+emp.getName();
+		}
 		
+		//http://localhost:8080/deleteEmployee/100 		
+		@RequestMapping(value = "deleteEmployee/{id}",method = RequestMethod.DELETE)
+		public String deleteEmployee(@PathVariable("id") int id) {
+			return "Employee record deleted using id as "+id;
+		}
 }
