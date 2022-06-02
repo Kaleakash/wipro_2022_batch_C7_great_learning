@@ -13,4 +13,8 @@ export class ProductService {
   loadAllProductInfo() : Observable<Product[]> {
     return this.http.get<Product[]>("http://localhost:8080/products/findAllProduct");
   }
+
+  storeProduct(product:Product) :Observable<string>{
+    return this.http.post("http://localhost:8080/products/storeProduct",product,{responseType:'text'})
+  }
 }

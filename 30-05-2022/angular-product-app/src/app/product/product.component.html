@@ -1,5 +1,19 @@
 <div>
     <h2>Product Management System</h2>
+<form #productRef = "ngForm" (ngSubmit)="storeProduct(productRef)">
+    <label>PId</label>
+    <input type="number" name="pid" ngModel/><br/>
+    <label>PName</label>
+    <input type="text" name="pname" ngModel/><br/>
+    <label>Price</label>
+    <input type="number" name="price" ngModel/><br/>
+    <label>URL</label>
+    <input type="url" name="url" ngModel/><br/>
+    <input type="submit" value="store product"/>
+    <input type="reset" value="reset"/>
+</form>
+<br/>
+<span style="color:red">{{storeMsg}}</span>
     <table>
         <tr>
             <th>PId</th>
