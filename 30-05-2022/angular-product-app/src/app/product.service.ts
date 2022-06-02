@@ -17,4 +17,12 @@ export class ProductService {
   storeProduct(product:Product) :Observable<string>{
     return this.http.post("http://localhost:8080/products/storeProduct",product,{responseType:'text'})
   }
+
+  deleteProduct(pid:number):Observable<string> {
+    return this.http.delete("http://localhost:8080/products/deleteProduct/"+pid,{responseType:"text"});
+  }
+
+  updateProdcut(product:any):Observable<string>{
+    return this.http.put("http://localhost:8080/products/updateProduct",product,{responseType:"text"})
+  }
 }
