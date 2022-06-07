@@ -1,0 +1,44 @@
+Spring AOP : Aspect Oriented Programming 
+
+
+Limitation of Procedure language is 
+in Procedure langauge we will focus more on functionality rather than properties or state. 
+
+But in OOPs language we wil focus more on properties or state rather than functionality. 
+
+AOP : AOP focus on funtionality 
+
+funtionality divided into two parts 
+1. primary functionality or core concern 
+2. secondary functionality or cross cutting 
+
+		Banking 
+			checkBalance 
+			withdraw 
+			deposite 
+					etc 
+
+		login 
+		database connection 
+		security 
+		etc 
+
+AOP it allow the separation of the cross cutting concern. 
+AOP terminology 
+1. Aspect : An aspect is a module that encapsulated advice and point cut. It provide cross cutting. 
+
+2. pointcut : A point is a expression language that use to select the one or more join points where advice is executed. 
+
+3. Joint point : A join piont is a point in the application or program where we can apply AOP aspect. 
+
+4. Advice : The advice is an action that we take eitehr before or after or both actual method execution. 
+	5 types 
+	before 
+	after 
+	Around (before and after)
+	AfterThrow 
+	AfterReturing 
+	
+
+IN Spring Framework we done AOP using XML or using Annotation and Spring boot 
+
