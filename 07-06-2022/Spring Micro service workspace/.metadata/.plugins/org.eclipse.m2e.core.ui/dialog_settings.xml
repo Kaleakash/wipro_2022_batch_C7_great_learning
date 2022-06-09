@@ -2,6 +2,10 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\Desktop\GreatLearning Demo Session\Batch 7\07-06-2022\Spring Micro service workspace\PaytmService"/>
+			<item value="D:\Desktop\GreatLearning Demo Session\Batch 7\07-06-2022\Spring Micro service workspace\AccountService"/>
+			<item value="D:\Desktop\GreatLearning Demo Session\Batch 7\07-06-2022\Spring Micro service workspace\SecondMiroServiceClient"/>
+			<item value="D:\Desktop\GreatLearning Demo Session\Batch 7\07-06-2022\Spring Micro service workspace\FirstMicroServiceClient"/>
 			<item value="D:\Desktop\GreatLearning Demo Session\Batch 7\07-06-2022\Spring Micro service workspace\EurekaServer"/>
 		</list>
 		<list key="projectNameTemplate">
