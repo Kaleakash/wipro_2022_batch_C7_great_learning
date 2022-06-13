@@ -32,7 +32,7 @@ public class AuthenticationController {
 	private JwtUtil jwtUtil;
 
 	@RequestMapping(value = "/authenticate", method = RequestMethod.POST)
-	public ResponseEntity<?> createAuthenticationToken(@RequestBody AuthenticationRequest authenticationRequest)
+	public AuthenticationResponse createAuthenticationToken(@RequestBody AuthenticationRequest authenticationRequest)
 			throws Exception {
 		try {
 			authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(
@@ -46,11 +46,11 @@ public class AuthenticationController {
 		
 		UserDetails userdetails = userDetailsService.loadUserByUsername(authenticationRequest.getUsername());
 		String token = jwtUtil.generateToken(userdetails);
-		return ResponseEntity.ok(new AuthenticationResponse(token));
+		return new AuthenticationResponse(token);
 	}
-	
+	// http://localhost:8080/register 					
 	@RequestMapping(value = "/register", method = RequestMethod.POST)
-	public ResponseEntity<?> saveUser(@RequestBody Login login) throws Exception {
-		return ResponseEntity.ok(userDetailsService.save(login));
+	public Login saveUser(@RequestBody Login login) throws Exception {
+		return userDetailsService.save(login);
 	}
 }
